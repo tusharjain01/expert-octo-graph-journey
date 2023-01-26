@@ -38,7 +38,7 @@ public class video4 {
             if(visited[i] == false){
                 ArrayList<Integer> comp = new ArrayList<>();
                 drawTree(graph, i, comp, visited);
-                comps.add(comp);
+                comps.add(comp); 
             }
         }
         System.out.println(comps);
